@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="en">
+ <head>
+<meta charset="UTF-8">
+<meta name="description" content="Portfolio ICS4U">
+  <meta name="keywords" content="Portfolio, Computer Science, ICS4U">
+  <meta name="author" content="Benjamin Herfray">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+ Portfolio - Computer Programming
+</title>
+
+<style>
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #ccff99;
+}
+
+header {
+   background-color: #339933;
+   text-align: center;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #339933; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 20px 50px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 20px 50px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0px;
+}
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #003300;
+  color: #EEEEEE;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #339933;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: #000000;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+   width: 75%;
+   background-color: white;
+   border-style: outset;
+   border-width: 3px;
+   text-align: left;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: auto;
+   margin-right: auto;
+   color: #003300;
+   padding: 20px;
+}
+</style>
+</head>
+<body>
+ <header>
+  <h1 style="color:#ffffff;text-align:center;font-size:300%">Computer Programming</h1>
+ </header>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <div class="subnav">
+    <button class="subnavbtn">AP Computer Science<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="KAAP.html#Programming">Computer Programming</a>
+      <a href="KAAP.html#interandinno">Computing Innovations and The Internet</a>
+      <a href="KAAP.html#digalgo">Digital Information and Algorithms</a>
+      <a href="KAAP.html#simsecuanalysis">Data Analysis, Simulations, and Online Data Security</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">Computer Programming<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="prog.html#JSintro">Introduction to JavaScript: Drawing and Animation</a>
+      <a href="prog.html#JSgames">Advanced JavaScript: Games and Visualizations</a>
+      <a href="prog.html#JSsim">Advanced JavaScript: Natural Simulations</a>
+      <a href="prog.html#CSS">Introduction to HTML/CSS: Making Webpages</a>
+    </div>
+  </div>
+  <a href="livecode.html">Live Coding Sessions</a>
+  <a href="Github.html">Git'n Going</a>
+</div>
+<div class="main">
+  <h2 id="JSintro" style="text-align:center">Introduction to JavaScript: Drawing and Animation</h2>
+  <img src="Rain.jpg" alt="A snapshot of my Make It Rain project" width="75%" class="center">
+<p>The JavaScript introduction course was incredibly useful in providing me with a good and 
+understandable introduction into a language I had never used before. The course taught me 
+all of the basics I needed to then go onto more interesting programs such as the ones in the 
+simulations and games and visualisations courses. Object oriented design, for example, was a 
+concept I had never seen, and this course provided me with an introduction to the practice 
+so that I could use this extremely useful tool and concept every time I work on programs 
+that would benefit form it in the future. While I would say I am beyond the concepts of this 
+course now, the habit of learning something and immediately trying it out, as was done in 
+the Khan Academy environment, is something I can take and apply not only to when I will 
+want to learn a new programming language, but in just about every facet of life as well.</p>
+<br>
+<br>
+<br>
+<h2 id="JSgames" style="text-align:center">Advanced JavaScript: Games and Visualizations</h2>
+  <img src="Memo.jpg" alt="A snapshot of my Memory++ project" width="75%" class="center">
+<p>The JavaScript games and visualizations course allowed me to understand how more advanced 
+visualizations can be made on a JS canvas, such as coordinate transformations and rotations 
+for moving objects, and other user interfaces such as buttons for changing something in the 
+middle of a program. It also demonstrated to me not only the relative ease of making such 
+visualizations but the merit and inerest in doing them, as before I only really expected to 
+use programming to generate values logged on console, without any visual aids or indicators. 
+As someone who plans to use these kinds of programs as a tool for more advanced physical 
+simulations and scenarios, specifically fluid dynamics or CFD I intend to keep using the 
+fundamentals of these concepts in contructing programs. These programs would then be easier 
+to understand and read. I could also make use of the buttons and other user interface methods 
+I learnt about to change parameters or variables mid-program, as one might in a real physical 
+experiment, instead of having to stop the program and change the code every time.</p>
+<br>
+<br>
+<br>
+<h2 id="JSsim" style="text-align:center">Advanced JavaScript: Natural Simulations</h2>
+  <img src="Creature.jpg" alt="A snapshot of my Creature Colonies project" width="75%" class="center">
+<p>Because I intend to use programming mostly for creating physical simulations in fluids, this was by 
+far the most meaningful module on Khan Academy for me. The module taught me many things about concepts 
+in physical simulations such as vectors. I knew what vectors were before this course but did not even know 
+they could really be used in computer programs, or at least not in a built-in way. Along with the many other 
+things such as forces, rotations, and particle system (that last one, it turns out, is really useful in fluid 
+simulations), the course gave me a basic and fundamental understanding of how physiscists go about making 
+simulations like these, albeit more complicated ones. I plan to use pretty much every single concept learnt 
+in the module extensively in the future, as I continue my studies to focus on more complicated physical 
+systems, which could be better understood through simulations I can try to create.</p>
+<br>
+<br>
+<br>
+<h2 id="CSS" style="text-align:center">Introduction to HTML/CSS: Making Webpages</h2>
+  <img src="Recipe.jpg" alt="A snapshot of my Recipe Book project" width="75%" class="center">
+<p>The HTML/CSS course was, well, what allowed me to create this very website. Although all 
+concepts were quite basic, and I intend to further my web development skills by following more 
+advanced courses, the course allowed me to make basic websites such as this one. In the future, 
+I plan to continue to learn CSS and HTML, and apply what I learn in making even more intricate and 
+complicated websites, such as additional portfolios (or adding to this one), a curriculum vitae, or 
+some other website (perhaps I may even have my own laboratory someday and could create a website for it!).</p>
+<br>
+<br>
+<br>
+<p>You can view all of my projects <a href="https://www.khanacademy.org/profile/kaid_893688224572001676581409/projects">here</a>.</p>
+</div>
+</body>
+</html>
